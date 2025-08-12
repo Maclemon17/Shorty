@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cyan: hsl(180, 66%, 49%);
+  --color-dark-violet: hsl(257, 27%, 26%);
+
+  --color-red: hsl(0, 87%, 67%);
+
+  --color-gray: hsl(0, 0%, 75%);
+  --color-grayish-violet: hsl(257, 7%, 63%);
+  --color-dark-blue: hsl(255, 11%, 22%);
+  --color-dark-violet: hsl(260, 8%, 14%);
+}
+
+body {
+  font-family: "Hev", poppins;
+  font-size: 18px;
+}
+
+.container {
+  width: 100%;
+  padding: 0 calc(10%);
+  margin: auto;
+}
+
+/* #f94c30
+#FCC7C7 */
