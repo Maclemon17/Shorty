@@ -14,7 +14,7 @@ const Navbar = () => {
 
 
     return (
-        <header className="bg-white px-10 py-6 lg:px-44">
+        <header className="bg-white px-10 py-10 lg:px-44">
             <div className="flex items-center justify-between">
                 {/* LOGO */}
                 <div className="flex items-center gap-12">
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className={`${openNav ? "translate-x-0" : "-translate-x-full hidden"} lg:hidden flex flex-col text-center gap-10 absolute top-20 left-10 right-10 p-10  h-fit bg-dark-blue text-xl rounded-2xl`}>
+            <div className={`${openNav ? "translate-x-0" : "-translate-x-full hidden"} md:hidden flex flex-col text-center gap-10 absolute top-20 left-10 right-10 p-10  h-fit bg-dark-blue text-xl rounded-2xl`}>
                 <nav>
                     <ul className="flex flex-col items-center gap-6 text-[16px] font-semibold text-gray cursor-pointer transition">
                         <li className="hover:text-black"><a href="/">Features</a></li>
@@ -54,6 +54,8 @@ const Navbar = () => {
                         <li className="hover:text-black"><a href="/">Resources</a></li>
                     </ul>
                 </nav>
+
+                <hr className="text-grayish-violet opacity-50" />
 
                 <div className="flex flex-col items-center gap-6 text-grayish-violet text-[16px] font-semibold transition">
                     <button className="hover:text-black">Login</button>
