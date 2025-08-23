@@ -13,7 +13,7 @@ const Hero = () => {
                         on how your links are performing.
                     </p>
 
-                    <button className='rounded-full py-4 md:py-[9px] px-15 md:px-[24px] text-white font-bold bg-cyan'>Get Started</button>
+                    <button className='rounded-full py-4 md:py-[9px] px-15 md:px-[24px] text-white font-bold bg-cyan hover:opacity-70 transition cursor-pointer'>Get Started</button>
                 </div>
 
                 <div className="hero-img-box md:w-3/5">
