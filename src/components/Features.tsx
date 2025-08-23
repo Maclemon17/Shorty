@@ -26,7 +26,7 @@ const appFeatures = [
 
 const Features = () => {
     return (
-        <section className="px-10 py-10 lg:px-44 bg-gray-100 relative mt-40" id="features">
+        <section className="px-10 py-10 lg:px-44 bg-gray-200 relative mt-40" id="features">
 
             <ActionCall />
 
@@ -36,7 +36,7 @@ const Features = () => {
                 advanced statistics dashboard.
             </p>
 
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-28 md:gap-12 mt-15">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-28 md:gap-12 mt-15 mb-10 md:mb-20">
                 {
                     appFeatures.map((feature, index) => (
                         <div key={index} className="bg-white px-6 py-10 md:p-10 rounded-md text-center md:text-left relative shadow-md hover:shadow-lg cursor-pointer transition">

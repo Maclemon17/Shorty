@@ -1,6 +1,6 @@
 // import Footer from "../components/Footer"
-import ActionCall from "../components/ActionCall"
 import Features from "../components/Features"
+import GetStarted from "../components/GetStarted"
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 
@@ -13,8 +13,8 @@ const Home = () => {
             {/* MAIN */}
             <main>
                 <Hero />
-                {/* <ActionCall /> */}
                 <Features />
+                <GetStarted />
             </main>
 
             {/* FOOTER */}
