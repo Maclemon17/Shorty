@@ -11,7 +11,7 @@ export default defineConfig({
     tailwindcss(),
     svgr({
       svgrOptions: {
-        icon: true,
+        replaceAttrValues: { '#34313D': 'currentColor' },
       },
     }),
   ],

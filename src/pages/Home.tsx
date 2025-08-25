@@ -1,4 +1,4 @@
-// import Footer from "../components/Footer"
+import Footer from "../components/Footer"
 import Features from "../components/Features"
 import GetStarted from "../components/GetStarted"
 import Hero from "../components/Hero"
@@ -16,9 +16,8 @@ const Home = () => {
                 <Features />
                 <GetStarted />
             </main>
-
             {/* FOOTER */}
-            {/* <Footer /> */}
+            <Footer />
         </>
     )
 }
